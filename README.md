@@ -11,13 +11,13 @@ This project is written as a frontend for the BookTracker backend application. U
 
 - **axios**
   Axios is a JavaScript library used for making HTTP requests. It can work in both browsers and Node.js environments and provides a Promise-based API.
-  react
+
 - **React**
   is a JavaScript library developed by Facebook. It is used to build user interface components and is a popular choice for developing single-page applications.
-  react-dom
+
 - **Tailwind CSS**
   Tailwind CSS is a utility-first CSS framework for creating custom designs quickly. It allows for rapid development by providing a set of pre-defined utility classes that can be used to style HTML elements.
-  react-icons
+
 - **React Icons** is used to include icons in React applications. It includes various icon sets and can be easily used through components.
 - **Context API**
   Context API is a feature in React that allows components to share data without having to pass props manually at every level of the component tree. It provides a way to share state between components without using props drilling.
