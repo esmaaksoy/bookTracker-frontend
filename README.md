@@ -1,4 +1,4 @@
-## BookTracker
+## BookTracker-Frontend
 
 This project is written as a frontend for the BookTracker backend application. Users can perform CRUD operations on the added books by adding a book.
 
