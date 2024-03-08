@@ -24,7 +24,7 @@ This project is written as a frontend for the BookTracker backend application. U
 - **React Toastify**
   React Toastify is a library for displaying notifications in React applications. It provides a simple way to show success, error, and other types of notifications to users.
 
-  ## Getting Started
+## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
