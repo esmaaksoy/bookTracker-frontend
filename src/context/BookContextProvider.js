@@ -16,14 +16,14 @@ const BookContextProvider = ({ children }) => {
   const [detail, setDetail] = useState({});
   const getBook = async () => {
     try {
-      const { data } = await axios("http://localhost:8000/");
+      const { data } = await axios("https://booktracker-65mo.onrender.com/");
       setBook(data.result.rows);
     } catch (error) {}
   };
 
   const postBook = async (info) => {
     try {
-      await axios.post("http://localhost:8000/", info);
+      await axios.post("https://booktracker-65mo.onrender.com/", info);
       getBook();
       toastSuccessNotify("Added New Book");
     } catch (error) {
@@ -33,7 +33,7 @@ const BookContextProvider = ({ children }) => {
 
   const getDetail = async (id) => {
     try {
-      const { data } = await axios(`http://localhost:8000/${id}`);
+      const { data } = await axios(`https://booktracker-65mo.onrender.com/${id}`);
       setDetail(data.result);
     } catch (error) {
       toastErrorNotify("An unexpected error occurred.");
@@ -42,7 +42,7 @@ const BookContextProvider = ({ children }) => {
 
   const deleteBook = async (id) => {
     try {
-      await axios.delete(`http://localhost:8000/${id}`);
+      await axios.delete(`https://booktracker-65mo.onrender.com/${id}`);
       toastSuccessNotify("Deleted Book");
       navigate("/");
       getBook();
@@ -52,7 +52,7 @@ const BookContextProvider = ({ children }) => {
   };
   const putBook = async (id, info) => {
     try {
-      await axios.put(`http://localhost:8000/${id}`, info);
+      await axios.put(`https://booktracker-65mo.onrender.com/${id}`, info);
       setBook(info);
       toastSuccessNotify("Edited Book.");
       getDetail(id)
