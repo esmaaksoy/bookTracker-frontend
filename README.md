@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+## BookTracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is written as a frontend for the BookTracker backend application. Users can perform CRUD operations on the added books by adding a book.
 
-## Available Scripts
+## Project Outcome
 
-In the project directory, you can run:
+![Project gif](./book.gif)
+[BookTracker Live Page](https://book-tracker-frontend-five.vercel.app/)
 
-### `npm start`
+## Tech/framework used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **axios**
+  Axios is a JavaScript library used for making HTTP requests. It can work in both browsers and Node.js environments and provides a Promise-based API.
+  react
+- **React**
+  is a JavaScript library developed by Facebook. It is used to build user interface components and is a popular choice for developing single-page applications.
+  react-dom
+- **Tailwind CSS**
+  Tailwind CSS is a utility-first CSS framework for creating custom designs quickly. It allows for rapid development by providing a set of pre-defined utility classes that can be used to style HTML elements.
+  react-icons
+- **React Icons** is used to include icons in React applications. It includes various icon sets and can be easily used through components.
+- **Context API**
+  Context API is a feature in React that allows components to share data without having to pass props manually at every level of the component tree. It provides a way to share state between components without using props drilling.
+- **React Toastify**
+  React Toastify is a library for displaying notifications in React applications. It provides a simple way to show success, error, and other types of notifications to users.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ## Getting Started
 
-### `npm test`
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+This is an example of how to list things you need to use the software and how to install them.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-### `npm run eject`
+1. Clone the repo
+   ```sh
+   git clone https://github.com/esmaaksoy/bookTracker-frontend
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. The project is ready, you can start using it now.
+   You can run:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   `npm start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   Runs the app in the development mode.\
+   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
